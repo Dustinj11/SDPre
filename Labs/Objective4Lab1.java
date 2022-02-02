@@ -1,0 +1,36 @@
+import java.util.scanner;
+
+public class Objective4Lab1 {
+  public static void main (Strings[] args) {
+
+    Scanner keyboard = new Scanner (System.in)
+
+    String fname = "";
+    String lname = "";
+    String favoriteAnimal = "";
+    String favoriteFood = "";
+    String favoriteSong = "";
+
+    System.out.println("What is your first name?");
+    fname = keyboard.nextLine();
+
+    System.out.println("What is your last name?");
+    lname = keyboard.nextLine();
+
+    System.out.println("What is your favorite animal?");
+    favoriteAnimal = keyboard.nextline();
+
+    System.out.println("What is your favorite food?");
+    favoriteFood = keyboard.nextLine();
+
+    System.out.println("What is your favorite song?");
+    favoriteSong = keyboard.nextLine();
+
+    System.out.println("My name is " + fname + " " + lname + ".");
+    System.out.println("My favorite animal is " + favoriteAnimal + ".");
+    System.out.println("My favorite fod is " + favoriteFoood + ".");
+    System.out.println("Myfavorite song is " + favoriteSong + ".");
+
+    keyboard.close();
+  }
+}
